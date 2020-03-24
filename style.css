@@ -1,7 +1,23 @@
+body {
+	background-color: lightblue;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 3px 3px red;
+	font-family: fantasy;
+
+}
+
 #clock {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 360px;
 }
 
 #clock img {
+	position: absolute;
 }
 
 #hour {
